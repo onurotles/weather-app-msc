@@ -1,4 +1,4 @@
-export const apiKey = process.env.REACT_APP_OPEN_WEATHER_API_KEY
+export const apiKey = "220f0a7d014a6480a5ff01a9dc6707b6"
 
 // param1 and param2 depend on whether the call was made with coordinates (in which case it will be latitude and longitude)
 // or with city and country (in which case it will be city and country), it will be indicated by type ('coordinates' or 'location')
