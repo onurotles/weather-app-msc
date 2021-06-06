@@ -19,6 +19,8 @@ export const getWeatherData = (param1, param2, type) => {
     }
 }
 
+
+
 export const setCurrentLocation = location => {
     return { type: `SET_LOCATION`, payload: location }
 }
@@ -32,6 +34,7 @@ export const clearLocation = () => {
 }
 
 export const setWeatherData = data => {
+    console.log(data)
     return { type: 'SET_WEATHER_DATA', payload: data}
 }
 

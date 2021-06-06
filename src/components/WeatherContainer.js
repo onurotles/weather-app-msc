@@ -15,7 +15,6 @@ const WeatherContainer = ({ fetching, weatherData }) => {
 
     // this is what gets rendered
     if (fetching) {
-        debugger
         return fetchingMessage()
     }
     if (weatherData !== null) {
